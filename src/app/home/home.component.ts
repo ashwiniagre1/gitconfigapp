@@ -5,6 +5,7 @@ import {Router} from '@angular/router';
   templateUrl: 'home.html'
 })
 export class HomeComponent {
+  let pullTest:any=[];
    menuData:any;
 	
   constructor(private _router : Router){    
